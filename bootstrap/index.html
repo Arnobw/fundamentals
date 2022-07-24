@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <style>
+        .squarediv {
+            width: 30px;
+            height: 30px;
+
+            border: 1px solid black;
+        }
+    </style>
+
+    <div class="container">
+        <h2>Hello Bootstrap</h2>
+        <div class="d-flex">
+            <div class="bg-primary squarediv"></div>
+            <div class="bg-info squarediv"></div>
+            <div class="bg-success squarediv"></div>
+            <div class="bg-warning squarediv"></div>
+            <div class="bg-danger squarediv"></div>
+            <div class="bg-light squarediv"></div>
+            <div class="bg-dark squarediv"></div>
+        </div>
+    </div>
+
+
+    <div id='breakpoints'>
+        <span class='d-block d-sm-none'> XS </span>
+        <span class='d-none d-sm-block d-md-none'> SM</span>
+        <span class='d-none d-md-block d-lg-none'> MD</span>
+        <span class='d-none d-lg-block d-xl-none'> LG</span>
+        <span class='d-none d-xl-block'> XL</span>
+     </div>
+        <style>
+           #breakpoints {
+              position: fixed;
+              top: 0;
+              left: 0;
+              background-color: lightgrey;
+              color: white;
+              padding: 0.2em;
+              z-index: 999;
+           }
+        </style>
+
+    <script src="" async defer></script>
+</body>
+
+</html>
