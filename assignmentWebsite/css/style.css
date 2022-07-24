@@ -95,11 +95,11 @@ body {
    padding:5px; 
 } */
 
-/* .blockText {
+.blockText {
     font-size: 13px;
     text-align: center;
     margin: 10px;
-    } */
+    }
 
 #footer {
     height:300px;
@@ -110,3 +110,10 @@ body {
     justify-content: space-around;
     color: aliceblue;
 }
+
+.margins {
+    margin: 10px;
+}
+
+.navbar { 
+    margin-left: 0 }
