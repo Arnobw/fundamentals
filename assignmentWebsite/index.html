@@ -11,71 +11,48 @@
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
 
-  <div class="container-sm">
+  <div class="container">
 
     <div class="row text-center d-flex flex-row">
-      <div class="img-fluid d-flex justify-content-between col-sm-12 col-md-6"> <img class="img-fluid" src="img/logo.png"></div>
-      <div class="col-sm-12 col-md-6 row">
-            <nav class="navbar navbar-expand-sm navbar-light col-sm-12 col-md-8">
-            
-              <ul class="list-group list-group-horizontal  ">
-      
-                <li li class="list-group-item border-0"  >
-                  <a class="text-decoration-none link-dark" href="#">over hairequipe</a>
-                </li>
-                <li li class="list-group-item border-0" >
-                  <a class="text-decoration-none link-dark" href="#">services</a>
-                </li>
-                <li li class="list-group-item border-0" >
-                  <a class="text-decoration-none link-dark"  href="#">contact</a>
-                </li>
+      <div class="img-fluid d-flex justify-content-between col-sm-12 col-md-6"> <img class="img-fluid"
+          src="img/logo.png"></div>
+      <div class="col-md-12 col-lg-6 row">
 
-              </ul>
-      
+        <div class="col-sm-12 col-md-9 d-flex justify-content-end align-items-end">
+        <nav class="navbar navbar-expand-sm navbar-light ">
 
-          </nav>
-            
+          <ul class="list-group list-group-horizontal mt-10 ">
 
+            <li li class="list-group-item border-0">
+              <a class="text-decoration-none link-dark" href="#">over hairequipe</a>
+            </li>
+            <li li class="list-group-item border-0">
+              <a class="text-decoration-none link-dark" href="#">services</a>
+            </li>
+            <li li class="list-group-item border-0">
+              <a class="text-decoration-none link-dark" href="#">contact</a>
+            </li>
 
-            <div class="col-sm-12 col-md-4" >
-              <img src="img/icon_fb.png">
-              <img src="img/icon_pinterest.png">
-              <img src="img/icon-instagram-dark.png">
-  
-            </div>
+          </ul>
 
 
+        </nav>
 
-          <!--    <nav class="navbar navbar-expand-lg navbar-light">
-            
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-      
-                <li class="nav-item">
-                  <a class="nav-link" href="#">over hairequipe</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">contact</a>
-                </li>
+      </div>
 
-              </ul>
-      
+        <div class="col-sm-12 col-md-3 d-flex justify-content-end align-items-center socials">
+          <img src="img/icon_fb.png">
+          <img src="img/icon_pinterest.png">
+          <img src="img/icon-instagram-dark.png">
 
-          </nav> -->
-            <!--    <div class="col-sm-12 col-md-2 d-flex flex-row socials justify-content-end">
-            <img src="img/icon_fb.png">
-            <img src="img/icon_pinterest.png"></li>
-            <img src="img/icon-instagram-dark.png">
-
-          </div>-->
         </div>
+
+      </div>
 
 
 
@@ -107,8 +84,23 @@
 
       </div>
     </nav>
-    <div class="jumbotron"> <img class="img-fluid w-100" src="img/afspraak.png"></div>
-    <div class="card-group">
+    <div class="jumbotron">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/afspraak.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/afspraak2.png" class="d-block w-100" alt="...">
+          </div>
+
+        </div>
+      </div>
+
+      </div>
+
+
+    <div class="card-group mt-10">
       <div class="card text-center">
         <img src="img/kapsalons.png" class="card-img-top" alt="...">
         <div class="card-body d-flex flex-column justify-content-between">
@@ -143,10 +135,10 @@
         </div>
       </div>
     </div>
-    <div id="footer" class="container-lg row">
+    <div id="footer" class="container-lg row g-0">
 
-      
-      <div class="col-sm-12 col-lg-3 justify-content-between">
+
+      <div class="col-sm-12 col-lg-3 p-3">
 
         <h5>Over hairequipe</h5>
         <ol class="list-unstyled">
@@ -158,16 +150,16 @@
           <li>Team</li>
         </ol>
       </div>
-      <div class="col-sm-12 col-lg-3">
+      <div class="col-sm-12 col-lg-3 p-3">
         <h5>Social Media</h5>
         <div id="socials mt-10">
           <img src="img/icon_fb.png">
           <img src="img/icon_pinterest.png">
           <img src="img/icon-instagram-dark.png"></div>
       </div>
-      <div class="col-sm-12 col-lg-3">
+      <div class="col-sm-12 col-lg-3 p-3">
         <h5>Services</h5>
-        <ol  class="list-unstyled">
+        <ol class="list-unstyled">
           <li>test</li>
           <li>test</li>
           <li>test</li>
@@ -175,9 +167,9 @@
         </ol>
       </div>
 
-      <div class="col-sm-12 col-lg-3">
+      <div class="col-sm-12 col-lg-3 p-3">
         <h5>Salons</h5>
-        <ol  class="list-unstyled">
+        <ol class="list-unstyled">
           <li>sfeerbeelden</li>
           <li>kapsalons zonder afspraak</li>
           <li>hairequipe themas</li>

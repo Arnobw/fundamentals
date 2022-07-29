@@ -2,7 +2,6 @@
 
 
 body {
-    width: 100%;
     font-family: 'Lato', sans-serif;
 }
 
@@ -57,12 +56,7 @@ body {
     margin-right: 20px;
 }
 
-#container{
-    padding:10px 0 0 0;
-    width: 50%;
-    margin: 0 auto;
 
-    }
 
 #afspraak{
     display: block;
@@ -84,16 +78,7 @@ body {
     text-align: center;    
 }
 
-/* .block h1{
-    text-transform: uppercase;
-    font-size: 20px;
-    margin:10px;
-} */
-/* .blockImage{
-    display: block;
-   margin: 0 auto;
-   padding:5px; 
-} */
+
 
 .blockText {
     font-size: 13px;
